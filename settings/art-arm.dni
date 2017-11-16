@@ -1,0 +1,98 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=0
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-1274347619
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.33.15" 0 0 1 "" 0 ""
+Bp1=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.34.2" 0 0 1 "" 0 ""
+Bp2=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.35.9" 0 0 1 "" 0 ""
+Bp3=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.37.2" 0 0 1 "" 0 ""
+Bp4=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.38.9" 0 0 1 "" 0 ""
+Bp5=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.39.2" 0 0 1 "" 0 ""
+Bp6=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.48.15" 0 0 1 "" 0 ""
+Bp7=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.49.2" 0 0 1 "" 0 ""
+Bp8=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.50.9" 0 0 1 "" 0 ""
+Bp9=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.52.2" 0 0 1 "" 0 ""
+Bp10=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.53.9" 0 0 1 "" 0 ""
+Bp11=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.54.2" 0 0 1 "" 0 ""
+Bp12=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.57.11" 0 0 1 "" 0 ""
+Bp13=_ 0 "STD_CODE2" "{$PROJ_DIR$\context.s79}.82.1" 0 0 1 "" 0 ""
+Bp14=_ 0 "STD_CODE2" "{$PROJ_DIR$\context-demo-if-first.c}.42.11" 0 0 1 "" 0 ""
+Bp15=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.25.15" 0 0 1 "" 0 ""
+Bp16=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.26.15" 0 0 1 "" 0 ""
+Bp17=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.28.2" 0 0 1 "" 0 ""
+Bp18=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.29.2" 0 0 1 "" 0 ""
+Bp19=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.30.2" 0 0 1 "" 0 ""
+Bp20=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.32.2" 0 0 1 "" 0 ""
+Bp21=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.33.2" 0 0 1 "" 0 ""
+Bp22=_ 1 "STD_CODE2" "{$PROJ_DIR$\context-demo.c}.36.2" 0 0 1 "" 0 ""
+Count=23
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Aliases]
+Count=0
+SuppressDialog=0
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1

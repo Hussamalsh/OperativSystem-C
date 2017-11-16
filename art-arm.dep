@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3314491684</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\Listor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\TimerFunctions.o</file>
+      <file>$TOOLKIT_DIR$\lib\m4t_al.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\kernel_hwdep.h</file>
+      <file>$PROJ_DIR$\OSFunctions\TaskAdministration.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\kernel.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Listor.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl4t_aln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\TaskAdministration.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\OSFunctions\TimerFunctions.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\context.s79</file>
+      <file>$PROJ_DIR$\OSFunctions\Listor.c</file>
+      <file>$PROJ_DIR$\kernel_hwdep.c</file>
+      <file>$PROJ_DIR$\OSFunctions\Communication.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\art-arm.pbd</file>
+      <file>$PROJ_DIR$\OSFunctions\kernel.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Communication.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\TaskAdministration.pbi</file>
+      <file>$PROJ_DIR$\OSFunctions\Communication.h</file>
+      <file>$TOOLKIT_DIR$\config\generic.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel_hwdep.pbi</file>
+      <file>$PROJ_DIR$\context-demo.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\TimerFunctions.pbi</file>
+      <file>$PROJ_DIR$\OSFunctions\Listor.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\art-arm.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\kernel_hwdep.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\context-demo.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\OSFunctions\TaskAdministration.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\context-demo.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Communication.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\context.o</file>
+      <file>$PROJ_DIR$\OSFunctions\TimerFunctions.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\OSFunctions\TaskAdministration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 34 35 12 40 5 23 39 25 46 43 26 8 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 25 43 18 35 40 5 39 23 8 26 12 34 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 39 18 12 35 40 5 43 26 8 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 43 18 35 40 5 39 23 8 26 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\OSFunctions\TimerFunctions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 41 26 25 43 8 35 34 12 23 40 5 39 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46 25 43 18 35 40 5 39 23 8 26 12 34 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\context.s79</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\OSFunctions\Listor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 12 26 18 23 39 43 35 40 5 34 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 25 43 18 35 40 5 39 23 8 26 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\kernel_hwdep.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 8 26 35 18 23 5 39 43 6</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 18 35 40 5 39 23 8 26 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\OSFunctions\Communication.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 35 18 12 34 40 46 25 43 26 8 29 5 39 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 34 25 43 18 35 40 5 39 23 8 26 12 46 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\context-demo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 12 40 5 23 39 18 43 26 8 10</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10 43 18 35 40 5 39 23 8 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\art-arm.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 30 27 45 37 11 15 14 1 4 3 2 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
